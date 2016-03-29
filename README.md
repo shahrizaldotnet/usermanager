@@ -15,7 +15,7 @@ A Simple User Management Script
 
 ### Add this lines below to lock any webpage you want:
 
-    require('includes/config.php'); 
+    require_once('includes/config.php'); 
     //make sure user is logged in, function will redirect use if not logged in
     $user->login_required();
     $user->check_if_time_is_expired();
